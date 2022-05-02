@@ -25,7 +25,8 @@ export const Main = () => {
         maxSize={800}
         style={{ width: '100%', height: '100vh' }}
         primary="first"
-        defaultSize={parseInt(localStorage.getItem('splitPos'), 10)}
+        defaultSize={250}
+        // defaultSize={parseInt(localStorage.getItem('splitPos'), 10)}
         onChange={(size) => localStorage.setItem('splitPos', size)}
       >
         <RoutesList />
