@@ -1,1 +1,1 @@
-# ForHerokuLeaflet-logistic v.Heroku
+# корне проэкта сделать npm i, далее npm start
